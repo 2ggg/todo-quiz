@@ -1,0 +1,25 @@
+body {
+  padding-top: 30px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-list {
+  display: flex;
+  gap: 20px;
+  padding-left: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  border: 1px solid green;
+  border-radius: 10px;
+  text-align: center;
+}
+
